@@ -54,7 +54,7 @@ function CharacterAttributes({ totalPoints }) {
           onChange={(e) => handleSliderChange(e, setHealthPoints)}
           step="1"
         />
-        Health
+        Health {healthPoints}
       </div>
       <div>
         <input
@@ -66,7 +66,7 @@ function CharacterAttributes({ totalPoints }) {
           onChange={(e) => handleSliderChange(e, setStaminaPoints)}
           step="1"
         />
-        Stamina
+        Stamina {staminaPoints}
       </div>
       <div>
         <input
@@ -78,7 +78,7 @@ function CharacterAttributes({ totalPoints }) {
           onChange={(e) => handleSliderChange(e, setSpeedPoints)}
           step="1"
         />
-        Speed
+        Speed {speedPoints}
       </div>
     </div>
   );
